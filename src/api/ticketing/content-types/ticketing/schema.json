@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ticketings",
+  "info": {
+    "singularName": "ticketing",
+    "pluralName": "ticketings",
+    "displayName": "ticketing"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "emotion": {
+      "type": "enumeration",
+      "enum": [
+        "Heureux",
+        "Triste",
+        "Stresser"
+      ]
+    },
+    "ticket_mood": {
+      "type": "enumeration",
+      "enum": [
+        "Commentaire",
+        "Ticket"
+      ]
+    },
+    "Commentaire": {
+      "type": "text"
+    }
+  }
+}

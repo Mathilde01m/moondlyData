@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "aventages",
+  "info": {
+    "singularName": "aventage",
+    "pluralName": "aventages",
+    "displayName": "Aventage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Aventage": {
+      "type": "enumeration",
+      "enum": [
+        "prime",
+        "tickets restaurant"
+      ]
+    },
+    "employe_nom": {
+      "type": "string"
+    }
+  }
+}
